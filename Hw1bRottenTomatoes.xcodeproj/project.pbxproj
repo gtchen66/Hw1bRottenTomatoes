@@ -14,13 +14,16 @@
 		B5AA4EC0187D43E0009813C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AA4EBF187D43E0009813C4 /* main.m */; };
 		B5AA4EC4187D43E0009813C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AA4EC3187D43E0009813C4 /* AppDelegate.m */; };
 		B5AA4EC7187D43E0009813C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AA4EC5187D43E0009813C4 /* Main.storyboard */; };
-		B5AA4ECA187D43E0009813C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AA4EC9187D43E0009813C4 /* ViewController.m */; };
 		B5AA4ECC187D43E0009813C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5AA4ECB187D43E0009813C4 /* Images.xcassets */; };
 		B5AA4ED3187D43E0009813C4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AA4ED2187D43E0009813C4 /* XCTest.framework */; };
 		B5AA4ED4187D43E0009813C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AA4EB3187D43E0009813C4 /* Foundation.framework */; };
 		B5AA4ED5187D43E0009813C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AA4EB7187D43E0009813C4 /* UIKit.framework */; };
 		B5AA4EDD187D43E0009813C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5AA4EDB187D43E0009813C4 /* InfoPlist.strings */; };
 		B5AA4EDF187D43E0009813C4 /* Hw1bRottenTomatoesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AA4EDE187D43E0009813C4 /* Hw1bRottenTomatoesTests.m */; };
+		B5AA4EEA187D43FB009813C4 /* MovieListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AA4EE9187D43FB009813C4 /* MovieListViewController.m */; };
+		B5AA4F7918814822009813C4 /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AA4F7818814822009813C4 /* MovieCell.m */; };
+		B5AA4F7C18814DFD009813C4 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AA4F7B18814DFD009813C4 /* Movie.m */; };
+		B5AA4F851884F55A009813C4 /* MovieDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AA4F841884F55A009813C4 /* MovieDetailTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,20 @@
 		B5AA4EC2187D43E0009813C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B5AA4EC3187D43E0009813C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B5AA4EC6187D43E0009813C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B5AA4EC8187D43E0009813C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B5AA4EC9187D43E0009813C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B5AA4ECB187D43E0009813C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B5AA4ED1187D43E0009813C4 /* Hw1bRottenTomatoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hw1bRottenTomatoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5AA4ED2187D43E0009813C4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B5AA4EDA187D43E0009813C4 /* Hw1bRottenTomatoesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hw1bRottenTomatoesTests-Info.plist"; sourceTree = "<group>"; };
 		B5AA4EDC187D43E0009813C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B5AA4EDE187D43E0009813C4 /* Hw1bRottenTomatoesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hw1bRottenTomatoesTests.m; sourceTree = "<group>"; };
+		B5AA4EE8187D43FB009813C4 /* MovieListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieListViewController.h; sourceTree = "<group>"; };
+		B5AA4EE9187D43FB009813C4 /* MovieListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieListViewController.m; sourceTree = "<group>"; };
+		B5AA4F7718814822009813C4 /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		B5AA4F7818814822009813C4 /* MovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		B5AA4F7A18814DFD009813C4 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		B5AA4F7B18814DFD009813C4 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		B5AA4F831884F55A009813C4 /* MovieDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailTableViewController.h; sourceTree = "<group>"; };
+		B5AA4F841884F55A009813C4 /* MovieDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +124,16 @@
 				B5AA4EC2187D43E0009813C4 /* AppDelegate.h */,
 				B5AA4EC3187D43E0009813C4 /* AppDelegate.m */,
 				B5AA4EC5187D43E0009813C4 /* Main.storyboard */,
-				B5AA4EC8187D43E0009813C4 /* ViewController.h */,
-				B5AA4EC9187D43E0009813C4 /* ViewController.m */,
+				B5AA4EE8187D43FB009813C4 /* MovieListViewController.h */,
+				B5AA4EE9187D43FB009813C4 /* MovieListViewController.m */,
 				B5AA4ECB187D43E0009813C4 /* Images.xcassets */,
 				B5AA4EBA187D43E0009813C4 /* Supporting Files */,
+				B5AA4F7718814822009813C4 /* MovieCell.h */,
+				B5AA4F7818814822009813C4 /* MovieCell.m */,
+				B5AA4F7A18814DFD009813C4 /* Movie.h */,
+				B5AA4F7B18814DFD009813C4 /* Movie.m */,
+				B5AA4F831884F55A009813C4 /* MovieDetailTableViewController.h */,
+				B5AA4F841884F55A009813C4 /* MovieDetailTableViewController.m */,
 			);
 			path = Hw1bRottenTomatoes;
 			sourceTree = "<group>";
@@ -249,9 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5AA4ECA187D43E0009813C4 /* ViewController.m in Sources */,
+				B5AA4F7C18814DFD009813C4 /* Movie.m in Sources */,
 				B5AA4EC4187D43E0009813C4 /* AppDelegate.m in Sources */,
+				B5AA4F851884F55A009813C4 /* MovieDetailTableViewController.m in Sources */,
+				B5AA4F7918814822009813C4 /* MovieCell.m in Sources */,
 				B5AA4EC0187D43E0009813C4 /* main.m in Sources */,
+				B5AA4EEA187D43FB009813C4 /* MovieListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +399,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hw1bRottenTomatoes/Hw1bRottenTomatoes-Prefix.pch";
 				INFOPLIST_FILE = "Hw1bRottenTomatoes/Hw1bRottenTomatoes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +413,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hw1bRottenTomatoes/Hw1bRottenTomatoes-Prefix.pch";
 				INFOPLIST_FILE = "Hw1bRottenTomatoes/Hw1bRottenTomatoes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +480,7 @@
 				B5AA4EE4187D43E0009813C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5AA4EE5187D43E0009813C4 /* Build configuration list for PBXNativeTarget "Hw1bRottenTomatoesTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +489,7 @@
 				B5AA4EE7187D43E0009813C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

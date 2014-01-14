@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MovieListViewController.h
 //  Hw1bRottenTomatoes
 //
 //  Created by George Chen on 1/8/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MovieListViewController : UITableViewController
 
 @end
